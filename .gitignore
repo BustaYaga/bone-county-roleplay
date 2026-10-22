@@ -1,0 +1,51 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+.envrc
+.venv/
+venv/
+env/
+/secrets/
+/credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+/server.cfg
+/gamemodes/database.local.inc
+
+# Database exports can contain accounts, password hashes and IP addresses
+*.sql
+!*.schema.sql
+*.sql.gz
+*.sql.zip
+*.sqlite
+*.sqlite3
+
+# Runtime logs and private player/server state
+*.log
+*_log.txt
+/logs/
+/samp.ban
+/scriptfiles/Gates/
+/scriptfiles/RPData/accounts/
+/scriptfiles/RPData/users/
+/scriptfiles/RPData/logs/
+/scriptfiles/RPData/bizzes/
+/scriptfiles/RPData/bizzfurn/
+/scriptfiles/RPData/housefurn/
+
+# Compiled Pawn scripts embed build-time database credentials
+*.amx
+/pawno/Compile.xml
+*.bak
+*.backup
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+Thumbs.db
+.DS_Store

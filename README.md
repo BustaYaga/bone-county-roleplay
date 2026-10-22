@@ -1,5 +1,9 @@
+Empty database setup: [DATABASE.md](DATABASE.md), using [database.schema.sql](database.schema.sql).
+
+See [RELEASE_SECURITY.md](RELEASE_SECURITY.md) before configuring or publishing this project.
+
 ##NOTE:##
--The main account login is: Test_Test Test123
+-Create your own administrator account in your local database; do not deploy shared demo credentials.
 
 -You will need the main account because this script has an in-game registration quiz, applications can be reviewed by registrars, helpers, and administrators. Applications are cached and can be reviewed regardless of whether or not the player is online.
 

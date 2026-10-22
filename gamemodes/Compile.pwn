@@ -320,15 +320,10 @@ enum {
 #define DAMAGE_M4 35
 #define DAMAGE_SNIPER 110
 //============================================//
-#define MYSQL_HOST "127.0.0.1"
-#define MYSQL_USER "root"
-#define MYSQL_DB "bcrp"
-#define MYSQL_PASS ""
+// Copy database.example.inc to database.local.inc and configure locally.
+#include "database.local.inc"
 //============================================//
-/*#define MYSQL_HOST "5.9.8.124"
-#define MYSQL_USER "u50096_Q7J8y5ZhyF"
-#define MYSQL_DB "s50096_BCRP"
-#define MYSQL_PASS "@0lluE.0F@Vt0ZpWCh@doZyi"*/
+
 //============================================//
 #define GARAGE_ENTRANCE_COST 1000
 #define GARAGE_EXIT_COST 1000
