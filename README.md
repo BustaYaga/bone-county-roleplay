@@ -1,4 +1,4 @@
-# Bone County Roleplay
+# Bone County Roleplay — v0.3.0
 
 Bone County Roleplay is a SA-MP roleplay gamemode featuring character progression, civilian life, businesses, factions, emergency services, and criminal roleplay.
 
@@ -84,3 +84,5 @@ The gamemode uses the following includes. Use the supplied **`pawno/include/`** 
 Windows uses `.dll` plugins; Linux uses `.so` plugins. The repository does not supply Linux builds of MySQL, sscanf, or CrashDetect. Plugin versions must match their includes, and any supporting libraries required by those builds must be installed.
 
 FCNPC and several additional includes are bundled for other scripts, but are not required by the current main gamemode. The default configuration loads no additional filterscripts.
+
+Deployment, phpMyAdmin import, and the optional test login are covered in [DEPLOYMENT.md](DEPLOYMENT.md).

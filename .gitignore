@@ -19,6 +19,7 @@ env/
 # Database exports can contain accounts, password hashes and IP addresses
 *.sql
 !*.schema.sql
+!/database.test-account.sql
 *.sql.gz
 *.sql.zip
 *.sqlite

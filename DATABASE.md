@@ -48,3 +48,12 @@ engine limits or runtime behavior. Existing source-query issues also remain:
 for example, the legacy MDC query in `Build.pwn` lacks a comma between `DriveLic`
 and `GunLic`, which can alias the field rather than select both. Schema creation
 does not repair application queries.
+
+## Optional development account
+
+After importing the empty schema, import `database.test-account.sql` to create
+`Test_Admin` with password `BCRP-Test-Only-2026!` and admin level **1337**
+(developer access). This separate seed uses the gamemode's salted SHA-256 format
+and does not overwrite an existing account. The schema itself remains empty.
+Remove the account or change its password through `/ucp` before public access.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for phpMyAdmin import and startup instructions.

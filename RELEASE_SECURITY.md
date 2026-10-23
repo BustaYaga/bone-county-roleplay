@@ -64,3 +64,12 @@ unstaged `git diff --check` passed. No Pawn compile or database import was run;
 this review does not certify application security or runtime compatibility.
 The subsequent schema work added offline validation in `tools/check_schema.py`;
 see `DATABASE.md` for its scope.
+
+## Public development seed added for v0.3.0
+
+`database.test-account.sql` is an intentionally published, synthetic test account
+requested for release setup. It is separate from the empty schema and historical
+player exports. Its public password and admin level 1337 are documented in
+[DEPLOYMENT.md](DEPLOYMENT.md). Import only for development; change its password
+or remove the account before public access. This does not authorize publishing
+private database exports or other credentials.
